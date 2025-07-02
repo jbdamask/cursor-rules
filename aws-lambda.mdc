@@ -1,0 +1,13 @@
+---
+description: Use this rule when creating AWS Lambda functions
+globs: 
+alwaysApply: false
+---
+Lambda functions should be written according to best practices [20260628-aws-lambda-best-practices.md](mdc:Users/johndamask/Downloads/20260628-aws-lambda-best-practices.md)
+
+Lambda functions written in Python should use the lastest stable version of Python minus 1. So if the current Python version is 3.13, you will use 3.12. 
+You will look up the latest Python version from Python's official website.
+
+When creating functions that require libraries, always check for library compatability with the version of Python you are using. If a library isn't compatiable with the python version, you will first look for an alternative module that is both established and in common use. If an acceptable one can't be found, you will downgrade that specific Lambda function to Python 3.12.
+
+You will create Lambda layers for common modules. Be aware that in cases where there are Lambda functions having different Python versions, you may need to create one layer per version.

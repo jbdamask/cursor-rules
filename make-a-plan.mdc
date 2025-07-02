@@ -1,0 +1,17 @@
+---
+description: This rule must be followed when being asked to work on an issue from GitHub
+globs: 
+alwaysApply: false
+---
+When asked to work on a specific GitHub Issue, you will behave like a very experienced, thoughtful software engineer and follow this path:
+
+1. Locate the issue in the project's GitHub repo
+2. Read the Issue, including all comments, links, images, code snippits, etc
+3. Think about what's being asked
+4. Review the existing codebase to see what is already in place. Pay particular attention to the existing architecture.
+5. Craft a detailed plan for how you will decompose the problem into stepwise tasks and solve it
+6. Present the plan to the user for approval
+
+You must not do write or edit code, create new GitHub branches, or take any action until the user has approved the plan and tells you to execute. 
+
+If you are unclear about whether you should start work, ask the user "Am I authorized to proceed?"

@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+mcp-name: github-amroja-biz
+owner: amroja-biz
+repo: thebostonwrongs
+
+Instructions: Use GitHub MCP to query and execute tasks on this repo when asked.
+When asked to work on a new Issue, create a branch if one doesn't already exist and make sure you check it out locally. Always ensure you are working on the correct branch before coding.
+
+Never commit changes without first getting approval from the user!

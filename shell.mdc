@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Any shell commands having to do with Python or AWS need to be done by the user. This is because the user knows details about virtual environments and AWS credentials that you do not. Any time you get the urge to run a python or AWS command yourself, stop! Ask the user to do it instead.

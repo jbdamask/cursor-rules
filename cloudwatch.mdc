@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+You have access to AWS Log Analyzer MCP. This allows you to search AWS CloudWatch logs for this project. 
+
+If the user asks for help searching for information in the logs, you need to know the date and time so your search results are relevant. Before invoking the MCP, run `date` in your shell so that you know the date and time.
